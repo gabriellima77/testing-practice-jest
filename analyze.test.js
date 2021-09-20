@@ -1,4 +1,4 @@
-const analyze = require('./analyze');
+const analyze = require('./src/analyze');
 
 test('No input', ()=>
   expect(analyze()).toBeNull());

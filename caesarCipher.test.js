@@ -1,4 +1,4 @@
-const caesarCipher = require('./caesarCipher');
+const caesarCipher = require('./src/caesarCipher');
 
 test('No input', ()=>
   expect(caesarCipher()).toBe(''));
