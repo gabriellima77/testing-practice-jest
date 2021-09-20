@@ -3,7 +3,7 @@ const analyze = require('./analyze');
 test('No input', ()=>
   expect(analyze()).toBeNull());
 
-test('Input not is a Array',
+test('Input is not a Array',
   ()=> expect(analyze(12)).toBeNull());
 
 test('Good path', ()=>
